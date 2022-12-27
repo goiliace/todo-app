@@ -1,0 +1,118 @@
+/* import font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* main css */
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-add-task {
+    /* background-color: #fff; */
+    padding: 20px 0 0;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+.add-task-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+}
+
+.add-task-box .title {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* custom input */
+.add-task-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.5em;
+    border: none;
+    color: #333;
+    line-height: 1.5;
+}
+
+.add-task-box input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none
+}
+
+.form-group-custom {
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 7px;
+}
+
+.add-task-box .btn-add-task {
+    background-color: #f5f5f5;
+    width: 70px;
+    color: #ccc;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    top: 50px;
+    right: 0;
+}
+
+/* style for current task item */
+.task-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.task-item-box {
+    margin: 1em 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.task-item-box:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.task-item {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+    color: #333;
+    line-height: 1.5;
+    background-color: #fff;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.task-item:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.mark-complete {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    cursor: pointer;
+}
