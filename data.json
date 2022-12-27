@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Reading books",
+        "completed": "true"
+    },
+    {
+        "name": "Writing code",
+        "completed": "false"
+    },
+    {
+        "name": "Playing games",
+        "completed": "false"
+    }
+]
