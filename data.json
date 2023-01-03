@@ -10,5 +10,9 @@
     {
         "name": "Playing games",
         "completed": "false"
+    },
+    {
+        "name": "Learning English",
+        "completed": "false"
     }
 ]
